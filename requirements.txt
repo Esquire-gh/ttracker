@@ -4,3 +4,6 @@ django-environ
 djangorestframework_simplejwt
 faker
 factory_boy
+coreapi
+pyyaml
+uritemplate

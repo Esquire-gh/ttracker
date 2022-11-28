@@ -1,3 +1,4 @@
+from django.urls import include, path
 from rest_framework.routers import DefaultRouter
 
 from project.views import ProjectViewSet
@@ -9,4 +10,6 @@ router.register(
     r'projects', ProjectViewSet, basename='projects'
 )
 
-urlpatterns = router.urls
+urlpatterns = [
+    path('', include('log.urls')),
+] + router.urls
