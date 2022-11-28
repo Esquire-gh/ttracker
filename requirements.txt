@@ -2,3 +2,5 @@ django
 djangorestframework
 django-environ
 djangorestframework_simplejwt
+faker
+factory_boy
